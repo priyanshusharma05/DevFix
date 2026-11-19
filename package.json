@@ -1,0 +1,30 @@
+{
+  "name": "devfix-ai-engine",
+  "version": "0.1.0",
+  "description": "AI/LLM Engineering Subsystem for DevFix AI - AI-powered VS Code debugging extension",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.test.ts\""
+  },
+  "keywords": [
+    "devfix",
+    "ai",
+    "llm",
+    "debugging",
+    "vscode-extension"
+  ],
+  "author": "Kunal Singhal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.0",
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
